@@ -2,8 +2,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-
+        
+        List<Integer> list = new ArrayList<>(Arrays.asList(1,0,0,1));
+   
+        System.out.println(BinaryArrayToNumber.ConvertBinaryArrayToInt(list));
 
     }
 
